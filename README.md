@@ -1,1 +1,9 @@
 # BSCS25054_ProductWebsite
+Prototype Product Website for Initial small business
+Page 1
+This Page gives a dynamic introduction to the website and what to expect at first glance, with the help of html and css I am able to display cover pictures and the name of my business.
+There is an explore our Products Prompt as well as a Prompt for the Personal AI Assistant the user can use to answer any queries. The Pop up AI chatbot will handle specific queries by using if else statements in external javascript. It will store the users answer and compare it to stored Outputs. It will also give an error if user hits the send button without writing anything. All three pages also have a header containg different attributes for Home, Products and about us. This First Page also has a footer with location cell number and Email details. This footer also gives uy the value of current year which is called using a built in function
+Page 2
+The Second Page brings us to the gist of our website, The products that we have to offer. Each image of each product is in a seperate colored box spanning horizontally. Each product has a few lines describing it and its price. There is also a Add to Cart button for each product, which when upon clicking, tells us whether that specific item is out of stock or not.You can scroll down the page to view all the products. We used a seperate container to store each product and its unique qualities.
+Page 3
+The last finale of our prototype website. This Page contains contact details for potential customers to reach out to the busines owners and it also includes their social media handles for the customer to so some mor research and for the advertisement of the business. This page also includes details such as Name and Email for the customer to fill in. It will also validate the input and it will give wn error message if the fields are left blank.
