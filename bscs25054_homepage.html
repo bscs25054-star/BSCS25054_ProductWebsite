@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Painterella</title>
+    <link rel="stylesheet" type="text/css" href="bscs25054_.css">
+</head>
+<body>
+ <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Product">Products</a></li>
+  <li><a href="#about">About Us</a></li>
+</ul>
+<div class="container">
+  <img src="bscs25054_image1.png" alt="field" style="width: 1500px; height:700px;">
+  <div class="top-right">By Nashwa</div>
+  <div class="centered">Painterella</div>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Your Personal AI-assistant</h1>
+
+    <label for="msg"><b>feel free to ask any queries!</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+    <button type="submit" class="btn" onclick = "UserMessage()">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+</div>
+<div class="container2">
+   <img src="BSCS25054_image2.jpg" style ="width: 1500px; height:200px;">
+   <div class="centered2">Explore Our Products!</div>
+    <button class="small-button" onclick="window.location.href='bscs25054_Products.html'">Next</button>
+    <div class="font"><h2>Chat with us</h2>
+  Click on the button at the bottom of this page to open the chat form.</div>
+</div>
+
+<footer>
+    <ul>
+      <p><p id= "year">Old Text</p></p>
+    <li><a href="#Email">Email</a></li>
+    <li><a href="#Number">Cell Number</a></li>
+    <li><a href="#Location">Location</a></li>
+    </ul>
+<button class="open-button" onclick="openForm()">Chat</button>
+</footer>
+ <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="bscs25054_script.js"></script>
+</body>
+</html>

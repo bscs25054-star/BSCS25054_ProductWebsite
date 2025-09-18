@@ -1,0 +1,280 @@
+ body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: black;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color: pink;
+}
+
+
+.top-right {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  top: 20px;
+  right: 30px;
+}
+
+.centered {
+  position: absolute;
+  font-size: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  top: 50%;
+  right: 50%;
+  transform: translate(-70%, 70%);
+}
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: pink;
+}
+.centered2 {
+  position: absolute;
+  font-size: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: right;
+  color: white;
+
+}
+footer ul li{
+    float: right;
+}
+.small-button {
+      position: absolute;      
+      bottom: 20px;             
+      right: 20px;              
+      padding: 8px 16px;
+      background-color: palevioletred;
+      color: black;
+      border:hsl(from color h s l);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+}
+.page-title {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  margin: 0;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  color: black;
+}
+
+.product:nth-child(2) { background-color: #ff6f61; }
+.product:nth-child(3) { background-color: #6b5b95; }
+.product:nth-child(4) { background-color: #88b04b; }
+.product:nth-child(5) { background-color: #ffa500; }
+.product:nth-child(6) { background-color: aqua; }
+
+.product img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.product-details h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.availability {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.in-stock {
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.out-of-stock {
+  color: #ffb3b3;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 8px;
+  font-size: 15px;
+}
+.contact-box {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.contact-box h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+.contact-box p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social-icons a.facebook:hover {
+  color: #3b5998;
+}
+.social-icons a.instagram:hover {
+  color: #e4405f;
+}
+.social-icons a.linkedin:hover {
+  color: #0077b5;
+}
+main {
+  flex: 1;
+}
+
+.open-button {
+  background-color: lightskyblue;
+  border-radius: 10px;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid black;
+  z-index: 9;
+  font-style: italic;
+}
+
+.form-container {
+  max-width: 300px;
+  background-color: palevioletred;
+  border-style: outset;
+  border-radius: 12px;
+  padding: 5px;
+  border-color: black;
+}
+
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border-radius: 12px;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: gainsboro;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: plum;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+
+.form-container .cancel {
+  background-color: purple;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.font{
+  color: black;
+}
